@@ -8,19 +8,19 @@
 
 body {
   font-family: 'JetBrains Mono', 'Courier New', monospace;
-  background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 50%, #0f0f1e 100%);
-  color: #00ffff;
+  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 50%, #f0f0f0 100%);
+  color: #333333;
   min-height: 100vh;
   overflow-x: hidden;
 
-  /* CRT 스캔라인 효과 */
+  /* 밝은 테마 미묘한 그라데이션 */
   background-image:
     repeating-linear-gradient(
       0deg,
-      rgba(0, 255, 255, 0.02),
-      rgba(0, 255, 255, 0.02) 1px,
+      rgba(200, 200, 200, 0.03),
+      rgba(200, 200, 200, 0.03) 1px,
       transparent 1px,
       transparent 2px
     ),
-    linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 50%, #0f0f1e 100%);
+    linear-gradient(135deg, #f5f5f5 0%, #ffffff 50%, #f0f0f0 100%);
 }
