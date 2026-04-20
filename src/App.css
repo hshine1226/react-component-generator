@@ -182,13 +182,14 @@
   width: 100%;
   box-sizing: border-box;
   padding: 1rem;
+  padding-bottom: 24px;
   background: rgba(0, 20, 40, 0.8);
   border: 2px solid #00ffff;
   border-radius: 0;
   color: #00ffff;
   font-size: 0.95rem;
   font-family: 'JetBrains Mono', monospace;
-  resize: vertical;
+  resize: none;
   min-height: 80px;
   line-height: 1.6;
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
