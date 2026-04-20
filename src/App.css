@@ -587,6 +587,41 @@
   text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
 }
 
+.viewport-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.viewport-btn {
+  padding: 0.4rem 0.75rem;
+  background: transparent;
+  border: 2px solid #00ffff;
+  border-radius: 0;
+  color: #00ffff;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.2);
+}
+
+.viewport-btn:hover {
+  border-color: #ff00ff;
+  color: #ff00ff;
+  background: rgba(255, 0, 255, 0.1);
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);
+}
+
+.viewport-btn--active {
+  background: linear-gradient(135deg, #00ffff, #ff00ff);
+  border-color: #ff00ff;
+  color: #000;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5), 0 0 10px rgba(255, 0, 255, 0.3);
+}
+
 /* Preview */
 .preview-content {
   padding: 2rem;
@@ -602,6 +637,8 @@
   border: 2px dashed #00ffff;
   border-radius: 0;
   box-shadow: inset 0 0 15px rgba(0, 255, 255, 0.1);
+  margin: 0 auto;
+  transition: width 0.3s ease;
 }
 
 .preview-error {
